@@ -1,0 +1,19 @@
+.section-title {
+  width: 100%;
+  padding: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 1.1;
+  background-color: $section-bg-title;
+  color: $section-color;
+  border-radius: 5px;
+  box-shadow: $shadow;
+}
+@media screen and (min-width: 504px) {
+  .section-title {
+    padding: 5px;
+    font-size: 12px;
+  }
+}

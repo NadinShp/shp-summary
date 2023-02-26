@@ -1,0 +1,80 @@
+.main-info {
+  background-color: $section-color;
+  width: 67%;
+  padding: 0 3px;
+}
+.decoration {
+  text-decoration: underline;
+}
+.name {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+}
+.position {
+  text-align: center;
+  font-size: 9px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 2px;
+  margin-bottom: 3px;
+}
+.description {
+  font-weight: 400;
+  font-size: 9px;
+  text-transform: full-width;
+}
+.about-me {
+  background-color: $section-bg-title;
+  padding: 2px 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  box-shadow: $shadow;
+  color: $section-color;
+}
+.list-projects {
+  list-style-type: none;
+}
+.groupe-projects {
+  font-weight: 600;
+  font-size: 10px;
+  margin-top: 2px;
+}
+.list-projects li {
+  list-style-type: none;
+  padding-bottom: 0;
+}
+.list-projects a,
+.list-projects p {
+  font-size: 9px;
+}
+.projects-list li {
+  padding-bottom: 0;
+}
+.info-about-me {
+  margin-top: 2px;
+}
+@media screen and (min-width: 504px) {
+  .main-info {
+    width: 69%;
+    padding: 2px 7px;
+  }
+  .about-me {
+    padding: 3px 10px;
+  }
+  .list-projects p {
+    font-size: 12px;
+    line-height: 1.1;
+  }
+  .list-projects a,
+  .list-projects p {
+    font-size: 12px;
+  }
+  .description {
+    font-size: 11px;
+  }
+  .position {
+    font-size: 10px;
+  }
+}
