@@ -1,5 +1,6 @@
 .wrapper {
   display: flex;
+  padding-bottom: 10px;
 }
 .photo {
   width: 100%;
@@ -52,6 +53,9 @@
   }
   .list-skills p {
     font-size: 12px;
+  }
+  .wrapper {
+    padding-bottom: 5px;
   }
 }
 .list {
